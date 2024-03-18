@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+/* ---navbar starts---- */
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+}
+
+/* --------nav-left----------*/
+#nav-logo{
+    height: 40px;
+    width: 8%;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-logo-text{
+    padding-bottom: 10px;
+}
+
+#nav-address{
+    height: 50px;
+    width: 80px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-add-line1{
+    padding-left: 14px;
+}
+
+#nav-add-line2{
+    display: flex;
+}
+
+/* --------nav-search bar---------*/
+.nav-search{
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navsearch-left{
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    border-style: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #E6E6E6;
+}
+
+#navsearch-fill{
+    height: 40px;
+    width: 50vw;
+}
+
+#navsearch-inpt{
+    height: 40px;
+    width: 50vw;
+    border-style: none;
+    font-size: 0.9rem;
+}
+
+#navsearch-right{
+    height: 40px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: darkorange;
+}
+
+/* --------nav right---------*/
+
+#nav-tools{
+    height: 50px;
+    width: 300px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-tools-left{
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#nav-tools-mid{
+    height: 50px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#nav-tools-right{
+    height: 50px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-tools-right i{
+    font-size: 2rem;
+}
+
+#nav-tools-cart{
+    padding-top: 4px;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* --------navbar-extras---------*/
+
+.nav-links{
+    text-decoration: none;
+    color: white;
+}
+
+.tline{
+    color: #cccccc;
+    font-size: 0.75rem;
+}
+
+.bline{
+    font-size: 0.88rem;
+    font-weight: bold;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/* ------------navbar-ends--------------- */
+
+/* ----------mini-navbar starts----------- */
+
+.mini-navbar{
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.95rem;
+    font-weight: 550;
+}
+
+.mini-navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+#mini-nav-links{
+    height: 40px;
+    width: 75%;
+    display: flex;
+    align-items: center; 
+}
+
+#mini-nav-links a{
+    margin-right: 25px;
+}
+
+/* ----------mini-navbar ends----------- */
+
+/* ----------Hero section starts----------- */
+
+.hero{
+    height: 60vh;
+    background-image: url("Images/hero-img1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero-float1{
+    height: 6vh;
+    width: 90vw;
+    position: relative;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    background-color: white;
+}
+
+#hero-float1 a{
+    text-decoration: none;
+    color: rgb(56, 100, 231);
+}
+
+/* ----------Hero section ends----------- */
+
+/* ----------content section starts----------- */
+
+.content{
+    height: 124vh;
+    background-color: #ece9e9e1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    margin:20px 0px 0px 0px;
+    filter: drop-shadow(0px 2px 4px grey);
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box h2{
+    font-size: 1.4rem;
+}
+
+.box a{
+    text-decoration: none;
+    font-size: 0.85rem;
+    color: #007185;
+}
+
+.box-img{
+    height: 42vh;
+    width:19.4vw;
+    background-size:cover;
+}
+
+.box4-content{
+    height: 280px;
+    width: 300px;
+}
+
+#box4-cont1{
+    height: 150px;
+    width: 300px;
+    background-size: cover;
+}
+
+#box4-cont2{
+    height: 130px;
+    width: 300px;   
+    display: flex;
+    justify-content: space-between;
+}
+
+.box4-cont2-itms{
+    height: 130px;
+    width: 96.6px;
+}
+
+.box4-cont2-images{
+    height: 70px;
+    width: 96.6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* ----------content section ends----------- */
+
+/* ----------footer starts----------- */
+
+#foot-top{
+    height: 10px;
+    padding: 15px 0px;
+    color: white;
+    font-size: 0.85rem;
+    background-color: #37475a;
+    text-align: center;
+}
+
+#foot-main{
+    height: 50vh;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+}
+
+.foot-main-box{
+    height: 30vh;
+    width: 14vw;
+    color: white;
+    margin: 40px 40px;
+}
+
+.foot-main-box p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.foot-main-box ul{
+    font-size: 0.9rem;
+    list-style: none;
+}
+
+.foot-main-box a{
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #e7e5e5;
+}
+
+.foot-main-box a:hover{
+    text-decoration: underline;
+}
+
+#foot-logo-bar{
+    height: 70px;
+    border-top: 1px solid #b2b1b1;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ft-logo{
+    width:110px;
+}
+
+#foot-btm{
+    height: 60px;
+    color: white;
+    background-color: #131a22;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 0.8rem;
+}
+
+#foot-pages a{
+    color: white;
+    text-decoration: none;
+    padding-right: 4px;
+}
+
+#foot-pages a:hover{
+    text-decoration: underline;
+}
+
+#copyright{
+    margin-top: 4px;
+}
+
+/* ----------footer ends----------- */
